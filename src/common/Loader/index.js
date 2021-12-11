@@ -1,10 +1,10 @@
 import spinner from "./images/spinner.svg";
-import { SpinnerSection, Spinner } from "./styled";
+import { SpinnerSection as SpinnerWrapper, Spinner } from "./styled";
 
 export const Loader = () => {
   return (
-    <SpinnerSection>
+    <SpinnerWrapper>
       <Spinner src={spinner} />
-    </SpinnerSection>
+    </SpinnerWrapper>
   );
 };
